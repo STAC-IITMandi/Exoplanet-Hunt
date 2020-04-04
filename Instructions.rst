@@ -1,6 +1,6 @@
 Read this file to know how to run the code
 ==========================================
-1) Read [Contribution guidelines](https://github.com/STAC-IITMandi/Exoplanet-Hunt/blob/master/CONTRIBUTING.md)
+1) Read Contribution guidelines
 2) Nevigate to this github repository in terminal.
 3) Run following commands
 
