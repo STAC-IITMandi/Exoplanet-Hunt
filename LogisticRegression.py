@@ -13,7 +13,8 @@ sys.path.insert(1, os.path.dirname(cwd))
 from preprocessors import reader
 
 #load data
-labels, fluxes = reader.ReadData(os.path.dirname(cwd)+'/data.csv')
+os.chdir('Data')
+labels, fluxes = reader.ReadData('data.csv')
 
 # Split dataset into training set and test set
 X_train, X_test, y_train, y_test = train_test_split(fluxes, labels, test_size=0.3, random_state=0)
