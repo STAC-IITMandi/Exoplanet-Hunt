@@ -204,3 +204,4 @@ $RECYCLE.BIN/
 /Data/*
 *.pyc
 *.pdf
+exohunter/version.py
