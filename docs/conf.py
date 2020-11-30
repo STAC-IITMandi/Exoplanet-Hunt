@@ -9,12 +9,13 @@
 
 # -- Project information -----------------------------------------------------
 
+from exohunter import __version__
+
 project = 'exohunter'
 copyright = '2020, STAC IIT Mandi'
 author = 'STAC IIT Mandi'
 
 # The full version, including alpha/beta/rc tags
-from exohunter import __version__
 release = __version__
 
 # -- General configuration ---------------------------------------------------
